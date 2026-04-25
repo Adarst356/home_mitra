@@ -1,0 +1,7 @@
+
+
+
+
+const String Annon_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNlcGF1c3ZieW90bWd5ZmtjcXFiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY5MTYyMTksImV4cCI6MjA5MjQ5MjIxOX0.ZbSIWY68Qmy0JGe9SV2T9cD64-w11VyM71lONiRUHDY";
+const String BASE_URL = "https://sepausvbyotmgyfkcqqb.supabase.co";
+
