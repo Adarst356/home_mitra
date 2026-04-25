@@ -8,9 +8,6 @@ import '../../../core/network/ui_state.dart';
 import '../../../core/utils/extensions.dart';
 import '../../../route/app_routes.dart';
 
-/// @Created by akash on 18-02-2026.
-/// Know more about author at https://akash.cloudemy.in
-
 class LoginController extends GetxController {
   final AuthRepo repo;
   LoginController({required this.repo});
@@ -24,9 +21,8 @@ class LoginController extends GetxController {
   final obscurePassword = true.obs;
   final selectedTab = 0.obs;
 
-  /// ✅ Dynamic role
+  ///  Dynamic role
   bool get isWorker => selectedTab.value == 1;
-
   void togglePassword() => obscurePassword.value = !obscurePassword.value;
 
   void changeTab(int index) {

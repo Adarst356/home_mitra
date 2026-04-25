@@ -18,15 +18,15 @@ class SignupScreen extends GetView<SignupController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFF2F3F7),
+
       appBar: AppBar(
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [
-            Text(
+          children: [
+             Text(
               "Hello Worker 👋",
               style: TextStyle(
-                color: Color(0xFFFF6B00),
+                color: context.colorScheme.tertiaryContainer,
                 fontSize: 14,
                 fontWeight: FontWeight.w500,
               ),
@@ -34,7 +34,7 @@ class SignupScreen extends GetView<SignupController> {
             Text(
               "Create Account",
               style: TextStyle(
-                color: Colors.black,
+                color: context.colorScheme.surface,
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),

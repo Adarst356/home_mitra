@@ -26,7 +26,7 @@ class SignupController extends GetxController {
   final isLoading = false.obs;
 
   /// Skill List
-  final skills = ["Electrician", "Plumber", "Painter"];
+  final skills = ["Electrician", "Plumber", "Painter","Labour"];
 
   /// Setters
   void setSkill(String? value) {
